@@ -62,7 +62,11 @@ file(GLOB_RECURSE SOURCES ${sources}
 
 ## Wiring
 
-<img src="https://github.com/ximtech/Nokia5110_LCD/blob/main/example/pinout.PNG" alt="image" width="300"/>
+<img src="https://github.com/ximtech/Nokia5110_LCD/blob/main/example/pinout.png" alt="image" width="300"/>
+
+## Demo video
+
+[![Image](https://img.youtube.com/vi/kKUFJGqaLlI/0.jpg)](https://www.youtube.com/watch?v=kKUFJGqaLlI)
 
 ## Usage
 
