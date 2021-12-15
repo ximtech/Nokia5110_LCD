@@ -70,11 +70,11 @@ file(GLOB_RECURSE SOURCES ${sources}
 
 ## Usage
 
-- Polling SPI LCD usage example: [link](https://github.com/ximtech/HD44780_I2C/blob/main/example/example.c)
-- Interrupt SPI LCD usage example: [link](https://github.com/ximtech/HD44780_I2C/blob/main/example/example_IT.c)
-- Interrupt handler: [link](https://github.com/ximtech/HD44780_I2C/blob/main/example/stm32f4xx_it.c)
+- Polling SPI LCD usage example: [link](https://github.com/ximtech/Nokia5110_LCD/blob/main/example/example.c)
+- Interrupt SPI LCD usage example: [link](https://github.com/ximtech/Nokia5110_LCD/blob/main/example/example_IT.c)
+- Interrupt handler: [link](https://github.com/ximtech/Nokia5110_LCD/blob/main/example/stm32f4xx_it.c)
 
-Image Converter: [link](https://github.com/ximtech/HD44780_I2C/blob/main/example//Image2GLCD)
+Image Converter: [link](https://github.com/ximtech/Nokia5110_LCD/blob/main/example//Image2GLCD)
 
 - <img src="https://github.com/ximtech/Nokia5110_LCD/blob/main/example/Image2GLCD/Image_Converter.PNG" alt="image" width="300"/>
 - <img src="https://github.com/ximtech/Nokia5110_LCD/blob/main/example/Image2GLCD/Image_Converter2.PNG" alt="image" width="300"/>
