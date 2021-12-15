@@ -5,16 +5,26 @@
 #include <stdarg.h>
 #include "SPI_IT.h"
 
+#ifndef N5110_DC_GPIO_PORT
 #define N5110_DC_GPIO_PORT       GPIOC
-#define N5110_RESET_GPIO_PORT    GPIOC
-#define N5110_CHIP_SELECT_PORT   GPIOA
+#endif
 
+#ifndef N5110_RESET_GPIO_PORT
+#define N5110_RESET_GPIO_PORT    GPIOC
+#endif
+
+#ifndef N5110_CHIP_SELECT_PORT
+#define N5110_CHIP_SELECT_PORT   GPIOA
+#endif
+
+#if !defined(N5110_DC_PIN) || !defined(N5110_RESET_PIN) || !defined(N5110_CHIP_SELECT_PIN)
 #define N5110_DC_PIN             LL_GPIO_PIN_1
 #define N5110_RESET_PIN          LL_GPIO_PIN_0
 #define N5110_CHIP_SELECT_PIN    LL_GPIO_PIN_4
+#endif
 
 // Font define section. Uncomment fonts what you want to use
-#define N5110_FONT_DEFAULT       1
+//#define N5110_FONT_DEFAULT       1
 //#define N5110_FONT_THICK         2
 //#define N5110_FONT_AUREBESH      3
 //#define N5110_FONT_SEVEN_SEGMENT 4
